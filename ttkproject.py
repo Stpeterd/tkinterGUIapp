@@ -6,7 +6,7 @@ from ttkbootstrap.constants import *
 root = ttk.Window(themename="darkly")
 
 def open_dialog():
-    app = ttk.Topleve(title="My Toplevel")
+    app = ttk.Toplevel(title="My Toplevel")
     app.mainloop()
 
 open_button = ttk.Button(root, text="0pen", command=open_dialog, bootstyle=SUCCES)
